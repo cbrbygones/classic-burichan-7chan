@@ -1,0 +1,108 @@
+/* ==UserStyle==@name           Classic Burichan Look for 7chan
+@namespace      Ceebeearr (github.com/cbrbygones)
+@version        1.0.0
+@description    Reverts 7chan's current Burichan theme to look similar to the default Kusaba X one.
+@author         Me bish
+==/UserStyle== */
+@-moz-document domain("7chan.org") {
+    html,
+    body {
+        background: #EEF2FF;
+        color: black;
+        font-family: serif;
+        font-size: 15px;
+    }
+
+    a {
+        color: #34345C;
+    }
+
+    a:hover {
+        background: inherit;
+    }
+
+    h1 {
+        text-shadow: none;
+        letter-spacing: 0;
+    }
+    section#recent {
+        display: none;
+    }
+
+    section#news {
+        width: 100%;
+    }
+
+    section#rbanner {
+        display: none;
+    }
+
+    section#boardlist {
+        display: none;
+    }
+
+    #rules {
+        font-family: serif;
+        font-size: 15px;
+    }
+
+    #rules .title {
+        font-family: serif;
+        text-shadow: none;
+        color: #AF0A0F;
+    }
+
+    .navbar {
+        background: none;
+        border: none;
+        font-family: serif;
+        text-align: left;
+    }
+
+    .navbar a {
+        font-family: serif;
+        font-size: 20px;
+    }
+
+    .navbar a:hover {
+        font-family: serif;
+        font-size: 20px;
+        background: inherit;
+    }
+
+    .op .post .message,
+    .post:first-child .message {
+        font-family: serif;
+    }
+
+    .reply .post .post_header {
+        background: #D6DAF0;
+        font-size: 15px;
+        width: auto;
+    }
+
+
+    ol li label {
+        background-color: #9988ee!important;
+        font-family: serif;
+        text-align: left;
+        border: none;
+        font-size: 15px;
+    }
+
+    ol li * {
+        vertical-align: middle;
+        color: black !important;
+    }
+
+    posting_form label {
+        font-weight: bold;
+    }
+    
+    
+
+    .omittedposts {
+        color: black;
+    }
+}
+
